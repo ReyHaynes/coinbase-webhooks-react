@@ -25,7 +25,7 @@ const OrderBook = ({ pair, bookData, options = {
     sizeBase: 100
   } }: OrderBookProps) => {
 
-  let [aggregator, setAggregator] = useState<Aggregator>(Aggregator.TEN)
+  let [aggregator, setAggregator] = useState<Aggregator>(Aggregator.ONE)
 
   let spread,
       sizeMax: number = 0,
