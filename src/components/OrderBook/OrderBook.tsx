@@ -88,7 +88,7 @@ const OrderBook = ({ pair, bookData, options = {
     bids = [ ...aggregatedBid ].splice(0, options.limit)
   }
 
-  if (asks[0].length > 0 && bids[0].length > 0 && pair) {
+  if (asks[0] && bids[0] && pair) {
     spread = (parseFloat(bookData.asks[0][0]) - parseFloat(bookData.bids[0][0])).toFixed(pair.quoteRounding ?? 2)
     sizeMax = Math.max(
       ...bids.map(([_, size]) => parseFloat(size)),
