@@ -51,8 +51,8 @@ const App = () => {
         const currentTime = Date.now()
         if (currentTime - throttle.lastThrottleTime > throttle.time) {
           if (book.asks && book.bids) setBookDisplayData({
-            asks: book.asks.slice(0,100),
-            bids: book.bids.slice(0,100)
+            asks: book.asks.slice(0,500),
+            bids: book.bids.slice(0,500)
           })
           throttle.lastThrottleTime = currentTime
         }
