@@ -28,7 +28,7 @@ const OrderBookSide = ({
       { data.map(([price, size], index) => {
         const fixedSize = Number(size).toFixed(pair?.baseRounding ?? 2)
         const fixedPrice = Number(price).toFixed(pair?.quoteRounding ?? 2)
-        if (!Number(fixedSize) || !Number(fixedPrice)) return
+        if (!Number(fixedSize) || !Number(fixedPrice)) return null
         return (
           <tr key={index}>
             <td>
