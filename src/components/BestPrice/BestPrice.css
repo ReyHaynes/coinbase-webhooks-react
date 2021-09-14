@@ -1,0 +1,16 @@
+.bookBestPrice {
+  width: 360px;
+  margin: 2.5vh 0;
+}
+
+.bookBestPrice tbody td:first-child {
+  text-align: center;
+}
+
+.bookBestPrice tbody td:nth-child(2) {
+  color: #25A699;
+}
+
+.bookBestPrice tbody td:nth-child(3) {
+  color: #EF5350;
+}

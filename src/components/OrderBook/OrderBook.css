@@ -1,0 +1,65 @@
+.bookLevelTwo {
+  width: 360px;
+  margin-top: 2.5vh;
+}
+
+.bookLevelTwo tbody td {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.bookLevelTwo tbody td:nth-child(2) {
+  position: relative;
+  mix-blend-mode: screen;
+}
+
+.bookLevelTwo td:nth-child(1) {
+  position: relative;
+  width: 50px;
+  border-right-color: #171B26;
+}
+
+.bookLevelTwo .asks td:nth-child(3) {
+  color: #EF5350;
+}
+
+.bookLevelTwo .bids td:nth-child(3) {
+  color: #25A699;
+}
+
+.bookLevelTwo .size {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: 0;
+  transition-property: width;
+  transition-duration: 230ms;
+  transition-delay: 0ms;
+  z-index: 0;
+}
+
+.bookLevelTwo .asks .size {
+  background-color: red;
+}
+
+.bookLevelTwo .bids .size {
+  background-color: #25A699;
+}
+
+.bookLevelTwo .aggregator {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookLevelTwo .aggregator div {
+  flex: auto;
+  cursor: pointer;
+}
+
+.bookLevelTwo .aggregator .active {
+  background-color: #2A2E39;
+}

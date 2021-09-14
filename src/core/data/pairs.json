@@ -1,0 +1,30 @@
+[
+  {
+    "name": "BTC-USD",
+    "baseRounding": 4,
+    "baseRoundingDecimal": 0.0001,
+    "quoteRounding": 2,
+    "quoteRoundingDecimal": 0.01
+  },
+  {
+    "name": "ETH-USD",
+    "baseRounding": 4,
+    "baseRoundingDecimal": 0.0001,
+    "quoteRounding": 2,
+    "quoteRoundingDecimal": 0.01
+  },
+  {
+    "name": "LTC-USD",
+    "baseRounding": 4,
+    "baseRoundingDecimal": 0.0001,
+    "quoteRounding": 2,
+    "quoteRoundingDecimal": 0.01
+  },
+  {
+    "name": "BCH-USD",
+    "baseRounding": 4,
+    "baseRoundingDecimal": 0.0001,
+    "quoteRounding": 2,
+    "quoteRoundingDecimal": 0.01
+  }
+]
